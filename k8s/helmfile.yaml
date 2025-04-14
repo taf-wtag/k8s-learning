@@ -1,0 +1,22 @@
+releases:
+  - name: client
+    chart: ./client
+    installed: true
+  - name: ingress
+    chart: ./ingress
+    installed: true
+  - name: postgres
+    chart: ./postgres
+    installed: true
+  - name: pvc
+    chart: ./pvc
+    installed: true
+  - name: redis
+    chart: ./redis
+    installed: true
+  - name: server
+    chart: ./server
+    installed: true  
+  - name: worker
+    chart: ./worker
+    installed: true  
